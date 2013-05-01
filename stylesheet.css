@@ -1,0 +1,87 @@
+div {
+    display: inline;
+}
+
+.compassNorthLeft {
+    color: maroon;
+    border-top: 150px solid transparent;
+    border-right: 15px solid;
+    border-bottom: 15px solid transparent;
+    margin-left: 150px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.compassNorthRight {
+    color: gray;
+    border-top: 150px solid transparent;
+    border-left: 15px solid;
+    border-bottom: 15px solid transparent;
+    margin-left: 165px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.compassWestUp {
+    color: maroon;
+    border-left: 150px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid;
+    position: absolute;
+    margin-top: 170px;
+}
+
+.compassWestDown {
+    border-top: 15px solid;
+    border-right: 15px solid transparent;
+    border-left: 150px solid transparent;
+    position: absolute;
+    margin-top: 185px;
+}
+
+.compassEastUp {
+    color: gray;
+    border-left: 15px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 15px solid;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 165px;
+}
+
+.compassEastDown {
+    color: orangered;
+    border-right: 150px solid transparent;
+    border-left: 15px solid transparent;
+    border-top: 15px solid;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 165px;
+}
+
+.compassSouthRight {
+    color: orangered;
+    border-top: 15px solid transparent;
+    border-left: 15px solid;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 165px;
+}
+
+.compassSouthLeft {
+    border-top: 15px solid transparent;
+    border-right: 15px solid;
+    border-bottom: 150px solid transparent;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 150px;
+}
+
+.north {
+    font-family: Vivaldi;
+    font-size: 34px;
+    position: absolute;
+    margin-left: 137px;
+    margin-top: -10px;
+}
